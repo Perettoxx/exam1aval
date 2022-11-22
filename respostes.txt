@@ -5,3 +5,5 @@ e) mv si.txt si
 f) awk '{ print $1 " " $2 "-" $5 }' Alumnos.txt
 
 g) awk '{print $1 " " $2}' Alumnos.txt | uniq | grep -c González 
+
+j) sed -i 's/Vicente/Pepe/g' Alumnos.txt
